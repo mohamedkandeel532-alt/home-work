@@ -1,7 +1,17 @@
+//  a) Declare two numbers x and y.
+//  b) Print the results of comparison operators: x == y, x != y, x > y, x < y, x >= y, x <= y.
+//  c) Create another number z and print whether z is equal to x + y using ==
 void main()
 {
-  int Age=21;
-  double Length=138.5;
-  num Sum=Age+Length;
-  print (Sum);
+  int x=10;
+  int y=20;
+    int z=15;
+  print(x==y);
+    print(x != y);
+  print(x > y);
+  print(x < y);
+  print(x >= y);
+  print(x <= y);
+  print(z==(x+y));
+
 }

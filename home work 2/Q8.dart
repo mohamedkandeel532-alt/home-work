@@ -1,23 +1,17 @@
-import 'dart:ffi';
-
+//  a) Create a Map<String, dynamic> student like: {'name': 'Samy', 'age': 24, 'gpa': 3.5}.
+//  b) Print student['name'], update student['gpa'], and add a new key 'city'.
+//  c) Print student.keys, student.values, and whether it containsKey('age').
 void main()
 {
-  int FristNumber =10;
-    int secondNumber=6;
-    int add=FristNumber+secondNumber;
-        int Sub=FristNumber-secondNumber;
-    int Mul=FristNumber*secondNumber;
-    double Div=FristNumber/secondNumber;   
-     num Mod=   secondNumber % FristNumber;
-print(add);
-print(Sub);
-print(Mul);
-print(Mod);
-print(Div);
+  Map  < String,dynamic>student ={'name': 'Samy', 'age': 24, 'gpa': 3.5};
+  print(student['name']);
+  student['gpa']=4.5;
+  print(student);
+  student['city']=['samanoud'];
+    print(student.keys);
+        print(student.values);
+            print(student.containsKey('age'));
 
 
 
-
-
-  
 }
