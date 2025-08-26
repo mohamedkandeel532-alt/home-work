@@ -4,7 +4,7 @@
 
 void main()
 {
-  List<String>names=['mohamed','kareem','ali'];
+  List<String>names=['mohamed','kareem','ali','ali'];
   dynamic newnames=names.toSet();
    print(newnames);
  Map<String,int>count=

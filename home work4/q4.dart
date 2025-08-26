@@ -3,7 +3,9 @@
 void main()
 {
   Map<dynamic,dynamic>?phonenumber={};
-  if(phonenumber['number']==null )
+  String? mo=phonenumber==null;
+  
+  if()
   {
   print('default');
   }

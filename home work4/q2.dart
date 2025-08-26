@@ -9,7 +9,7 @@ void main()
     };
     print(names['EG']);
     names['QA']='Qatar';
-    if(names=='JO')
+    if(names!='JO')
     {
       print('jordan not missing');
     }

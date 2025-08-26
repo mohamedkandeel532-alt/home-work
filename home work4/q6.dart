@@ -4,8 +4,8 @@
 void main()
 {
   int sum=0;
-  List<int>?number=[1,2,3,4,5];
-   if(number.isEmpty || number==null)
+  List<int>?number;
+   if(number!.isEmpty || number==null)
   {
     print('no scorre');
   }
