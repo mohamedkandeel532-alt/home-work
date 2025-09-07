@@ -4,17 +4,17 @@ void main()
   Solution();
 }
 void Solution() {
-List<int>num=[8,10,3,9];
-int target=19;
+List<int>num=[3,2,4];
+int target=6;
 int result=0;
 for(int i=0;i<num.length;i++)
 {
 
   for(int j=i+1;j<num.length;j++){
 
-     result=num[j];
   
-  if( i!=j&&result+num[i]==target)
+  if( i!=j&&num[j]+num[i]==target)
   {
-    print([i,j]);
+    result=[i,j];
+    print(result);
     }}}}

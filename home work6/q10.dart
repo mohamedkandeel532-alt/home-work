@@ -6,7 +6,7 @@ void main()
 {
 returnSum();
 }
-int returnSum()
+void returnSum()
 {
   int sum=0;
   String num=stdin.readLineSync()!;
@@ -17,5 +17,5 @@ sum=sum+i;
   }
   print(sum);
 
-  return sum;
+  // return sum;
 }
